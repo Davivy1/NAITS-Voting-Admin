@@ -114,6 +114,9 @@ function Dashboard() {
         <button onClick={() => navigate('/roster')} className="w-full text-left border border-gray-200 rounded-lg px-5 py-4 text-navy font-medium">
           View Roster →
         </button>
+        <button onClick={() => navigate('/results')} className="w-full text-left border border-gray-200 rounded-lg px-5 py-4 text-navy font-medium">
+          View Results →
+        </button>
       </div>
     </div>
   )
